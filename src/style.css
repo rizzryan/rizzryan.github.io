@@ -35,10 +35,11 @@ img {
 
 .drop {
     background-color: transparent;
-    padding: none;
+    display: flex;
     font-size: 35px;
     border: none;
     cursor: pointer;
+    outline: none;
 }
 
 .dropdown {
