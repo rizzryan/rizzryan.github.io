@@ -13,19 +13,22 @@ body {
 }
 
 .container {
-    animation: animatezoom 0.6s;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    position: relative;
     margin: auto;
-    width: 200px;
-    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    animation: animatezoom 0.6s;
+}
+
+img {
+    width: 300px;
 }
 
 .icons {
-    width: 150%;
     display: flex;
     justify-content: space-between;
 }
