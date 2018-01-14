@@ -33,7 +33,7 @@ img {
     justify-content: space-between;
 }
 
-.drop:active {
+.drop:active, .drop:hover {
     background-color: transparent;
     font-size: 35px;
     border: none;
