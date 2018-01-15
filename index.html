@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="src/style.css">
     <link rel="stylesheet" href="src/webfont/cryptocoins.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/typing/text-cursor.css">
 </head>
 
 <body>
@@ -20,50 +21,50 @@
 
             <div class="icons">
                 <a href="https://www.github.com/rizzryan" target="_blank">
-                        <i class="fa fa-github" aria-hidden="true"></i>
-                    </a>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
 
                 <a href="mailto:ryanwelch.nsa@gmail.com" target="_blank">
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                    </a>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </a>
 
                 <a href="https://www.facebook.com/ryan.n4yr" target="_blank">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </a>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
 
                 <a href="https://www.instagram.com/_n4yr_/" target="_blank">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                    </a>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
 
                 <a href="https://www.twitter.com/PRACTlCAL/" target="_blank">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
 
                 <a href="https://www.snapchat.com/add/lmaolaughter" target="_blank">
-                        <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
-                    </a>
+                    <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
+                </a>
 
                 <div class="dropdown">
                     <a class="drop" onclick="">
-                            <i class="fa fa-usd" aria-hidden="true"></i>
-                        </a>
+                        <i class="fa fa-usd" aria-hidden="true"></i>
+                    </a>
 
                     <div class="dropdown-content">
                         <a href="https://www.paypal.me/Welch300" target="_blank">
-                                <i class="fa fa-paypal" aria-hidden="true"></i>
-                            </a>
+                            <i class="fa fa-paypal" aria-hidden="true"></i>
+                        </a>
 
                         <a href="assets/btc.png" target="_blank">
-                                <i class="fa fa-btc" aria-hidden="true"></i>
-                            </a>
+                            <i class="fa fa-btc" aria-hidden="true"></i>
+                        </a>
 
                         <a href="assets/ltc.png" target="_blank">
-                                <i class="cc LTC-alt" title="LTC"></i>
-                            </a>
+                            <i class="cc LTC-alt" title="LTC"></i>
+                        </a>
 
                         <a href="assets/eth.png" target="_blank">
-                                <i class="cc ETH-alt" title="ETH"></i>
-                            </a>
+                            <i class="cc ETH-alt" title="ETH"></i>
+                        </a>
 
                     </div>
 
@@ -71,9 +72,17 @@
 
             </div>
 
-        </div>
+            <div class="about">
+                <p id="line1" class="hidden">I am Ryan.</p>
+                <p id="line2" class="hidden">I like to code.</p>
+                <p id="line3" class="hidden">Contact me above.</p>
+                <p id="line4" class="hidden">Feel free to donate.</p>
+                <p id="cursor-line" class="visible">&gt;&gt; <span class="typed-cursor">&#9608;</span></p>
+            </div>
 
+        </div>
     </div>
+
 
     <script>
         $(document).ready(function() {
@@ -83,15 +92,15 @@
                 $('.drop').toggle();
             });
 
-            $('body').click(function() {                
+            $('body').click(function() {
                 $('.drop').hide();
             });
-
-            
 
         });
 
     </script>
+
+    <script src="src/typing/typing.js"></script>
 
 </body>
 
