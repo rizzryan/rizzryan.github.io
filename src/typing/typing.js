@@ -30,9 +30,9 @@ var typeWriter = function(index) {
 
       // stops the function from self-calling when all letters are typed
       if (letterCount === fullText.length) {
-        loc.innerHTML = '&gt;&gt; ' + showText;
+        loc.innerHTML = '&gt; ' + showText;
       } else {
-        loc.innerHTML = '&gt;&gt; ' + showText + '<span class="typed-cursor">' + cursorChar + '</span>';
+        loc.innerHTML = '&gt; ' + showText + '<span class="typed-cursor">' + cursorChar + '</span>';
         typeLetter();
       }
     }, timeChar);
